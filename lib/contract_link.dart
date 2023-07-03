@@ -36,7 +36,7 @@ class ContractLink {
     );
 
     _credentials = EthPrivateKey.fromHex(
-        '88093061c7ffd4701cd6c37532868e34043ad3f57ab3f2c08e1d290401b2a7b4');
+        '834043ad3f57ab38093061c7ffd4701cd6c37532868ef2c08e1d290401b2a7b4');
   }
 
   Future<List<dynamic>> query(String functionName, List<dynamic> args) async {
